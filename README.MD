@@ -5,4 +5,4 @@
 - built with plain HTML/CSS/JS
 - Headlines are pregenerated (about a hundred)
 
-## LIVE DEMO [HERE](TBD) (TODO: PUBLISH TO GITHUB PAGES)
+## LIVE DEMO [HERE] (https://jarvis09-yann.github.io/Florida-man-headlines/)
