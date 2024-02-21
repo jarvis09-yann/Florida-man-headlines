@@ -1,0 +1,104 @@
+/* * {
+  outline: 2px solid black;
+} */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 65px;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+}
+.title {
+  padding: 10px;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title p {
+  padding: 20px;
+  font-size: larger;
+  outline: 2px solid black;
+}
+
+.subtitle {
+  padding: 2px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+.content h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.paragraph-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.paragraph h3 {
+  font-size: 30px;
+  margin: 0;
+}
+.paragraph p {
+  margin: 0;
+}
+
+.paragraph:first-child {
+  flex: 2 1 auto;
+}
+
+.paragraph:last-child {
+  flex: 1 1 auto;
+}
+
+.bottom-paragraph {
+  margin-top: 20px;
+  display: flex;
+}
+
+.bottom-paragraph h3 {
+  flex: 1 0 200px;
+}
+
+footer {
+  outline: 2px solid black;
+}
+footer ul {
+  display: flex;
+  padding: 3px;
+  justify-content: space-evenly;
+}
